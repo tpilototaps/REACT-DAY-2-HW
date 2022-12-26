@@ -1,0 +1,21 @@
+
+.card{
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+  }
+  
+  .container {
+    border: 3px solid rgb(255, 255, 255);
+    color: rgb(14, 14, 14);
+    padding: 20px;
+    transition: transform 0.3s ;
+    background-color: rgb(192, 127, 127);
+  }
+  
+  .container:hover {
+    transform: scale(1.1);
+  }
+
+  
